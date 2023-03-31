@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { logIn } from 'redux/auth/operations';
-import { IoMdArrowRoundBack } from 'react-icons/io';
 import { BackLink } from 'pages/Register/Register.styled';
 import {
   Form,
@@ -57,8 +56,7 @@ const Login = () => {
         <SubmitButton type="submit">Login</SubmitButton>
       </Form>
       <BackLink to="/">
-        <IoMdArrowRoundBack />
-        Back to homepage
+        Go to homepage
       </BackLink>
     </>
   );

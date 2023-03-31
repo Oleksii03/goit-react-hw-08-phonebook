@@ -2,10 +2,15 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Form = styled.form`
+  border: 3px solid #008000;
+  border-radius: 50px 10px 50px 10px;
+  padding: 20px 50px;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto 50px;
   align-items: center;
-  row-gap: 30px;
+  gap: 30px;
 `;
 
 export const SubmitButton = styled.button`
@@ -13,20 +18,18 @@ export const SubmitButton = styled.button`
   display: block;
   font-family: inherit;
   font-size: 20px;
-  color: #d5cea3;
-  background-color: #3c2a21;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #008000;
   border: none;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   cursor: pointer;
   transition: background-color 250ms ease, color 250ms ease;
 
   &:hover,
   &:focus {
-    color: #3c2a21;
-    background-color: #d5cea3;
+    color: #000;
+    background-color: #3CB371;
   }
 `;
 
@@ -36,13 +39,11 @@ export const Input = styled.input`
   padding: 10px 15px;
   font-family: inherit;
   font-size: 25px;
-  color: #3c2a21;
-  background-color: #d5cea3;
+  color: #000;
+  background-color: #3CB371;
   border: none;
+  outline: none;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 `;
 
 export const PasswordInput = styled.input`
@@ -52,12 +53,10 @@ export const PasswordInput = styled.input`
   font-family: auto;
   font-size: 25px;
   color: #3c2a21;
-  background-color: #d5cea3;
+  background-color: #3CB371;
   border: none;
+  outline: none;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 `;
 
 export const Label = styled.label`
@@ -73,37 +72,33 @@ export const Title = styled.span`
   margin-bottom: 10px;
   font-size: 45px;
   color: #1a120b;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.12), 0 0 1em rgba(0, 0, 0, 0.12),
-    0 0 0.2em rgba(0, 0, 0, 0.12);
 `;
 
 export const BackLink = styled(Link)`
-  position: absolute;
-  top: 20px;
-  right: 20px;
+  // position: absolute;
+  // top: 20px;
+  // right: 20px;
   padding: 15px;
   display: flex;
   align-items: center;
+  justify-content: center;
   column-gap: 5px;
-  max-width: 300px;
+  max-width: 150px;
   margin: 0 auto;
   text-align: center;
   text-decoration: none;
   font-family: inherit;
   font-size: 15px;
-  color: #d5cea3;
-  background-color: #3c2a21;
+  color: #fff;
+  background-color: #008000;
   border: none;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   cursor: pointer;
   transition: background-color 250ms ease, color 250ms ease;
 
   &:hover,
   &:focus {
-    color: #3c2a21;
-    background-color: #d5cea3;
+    color: #000;
+    background-color: #3CB371;
   }
 `;

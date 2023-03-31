@@ -10,9 +10,7 @@ import { Form, SubmitButton, Input, Label, Title } from './ContactForm.styled';
 export const ContactForm = () => {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
-
   const { items } = useSelector(selectContacts);
-
   const dispatch = useDispatch();
 
   useEffect(() => {

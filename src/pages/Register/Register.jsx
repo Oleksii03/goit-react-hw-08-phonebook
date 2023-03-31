@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { register } from 'redux/auth/operations';
-import { IoMdArrowRoundBack } from 'react-icons/io';
 import {
   Form,
   SubmitButton,
@@ -69,8 +68,7 @@ const Register = () => {
         <SubmitButton type="submit">Register</SubmitButton>
       </Form>
       <BackLink to="/">
-        <IoMdArrowRoundBack />
-        Back to homepage
+        Go to homepage
       </BackLink>
     </>
   );

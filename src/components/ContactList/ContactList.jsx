@@ -8,7 +8,6 @@ export const ContactList = () => {
   const { isLoading, error } = useSelector(selectContacts);
   const filteredContacts = useSelector(selectFilteredContacts);
   const dispatch = useDispatch();
-
   const onDeleteClick = id => dispatch(deleteContact(id));
 
   return (

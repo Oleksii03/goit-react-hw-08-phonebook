@@ -4,7 +4,13 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: 30px;
+  gap: 30px;
+
+  border: 3px solid #008000;
+  border-radius: 50px 10px 50px 10px;
+  max-width:500px;
+  padding: 50px 20px;
+  margin: 0 auto;
 `;
 
 export const SubmitButton = styled.button`
@@ -12,20 +18,17 @@ export const SubmitButton = styled.button`
   display: block;
   font-family: inherit;
   font-size: 20px;
-  color: #d5cea3;
-  background-color: #3c2a21;
+  color: #000;
+  background-color: #3CB371;
   border: none;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   cursor: pointer;
   transition: background-color 250ms ease, color 250ms ease;
 
   &:hover,
   &:focus {
-    color: #3c2a21;
-    background-color: #d5cea3;
+    color: #fff;
+    background-color: #008000;
   }
 `;
 
@@ -36,12 +39,10 @@ export const Input = styled.input`
   font-family: inherit;
   font-size: 25px;
   color: #3c2a21;
-  background-color: #d5cea3;
+  background-color: #3CB371;
   border: none;
+  outline: none;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 `;
 
 export const Label = styled.label`
@@ -54,6 +55,4 @@ export const Title = styled.span`
   margin-bottom: 10px;
   font-size: 35px;
   color: #1a120b;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.12), 0 0 1em rgba(0, 0, 0, 0.12),
-    0 0 0.2em rgba(0, 0, 0, 0.12);
 `;
