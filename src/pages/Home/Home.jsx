@@ -7,10 +7,8 @@ import { LogOutButton } from './Home.styled';
 
 const Home = () => {
   const dispatch = useDispatch();
-
   const user = useSelector(selectUser);
   const isLoggedIn = useSelector(selectIsLoggedIn);
-
   const handleClick = () => dispatch(logOut());
 
   return (
@@ -27,10 +25,10 @@ const Home = () => {
         </>
       ) : (
         <>
-          <Heading>Welcome to your phonebook!</Heading>
-          <Text>Already registered user?</Text>
+          <Heading>This is your phonebook !</Heading>
+          <Text>Please, log in to reach your contacts !</Text>
           <UserLink to="/login">Login</UserLink>
-          <Text>Or register if you're new!</Text>
+          <Text>Or register !</Text>
           <UserLink to="/register">Register</UserLink>
         </>
       )}
