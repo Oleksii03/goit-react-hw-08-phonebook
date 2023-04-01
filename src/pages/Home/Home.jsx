@@ -26,7 +26,7 @@ const Home = () => {
       ) : (
         <>
           <Heading>This is your phonebook!</Heading>
-          <Text>Please, log-in</Text>
+          <Text>Please, login</Text>
           <UserLink to="/login">Log-in</UserLink>
           <Text>Sign-up</Text>
           <UserLink to="/register">Sign-up</UserLink>
