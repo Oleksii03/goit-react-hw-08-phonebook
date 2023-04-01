@@ -65,7 +65,7 @@ const Register = () => {
             onChange={handleChange}
           />
         </Label>
-        <SubmitButton type="submit">Register</SubmitButton>
+        <SubmitButton type="submit">Sign-up</SubmitButton>
       </Form>
       <BackLink to="/">
         Go to homepage

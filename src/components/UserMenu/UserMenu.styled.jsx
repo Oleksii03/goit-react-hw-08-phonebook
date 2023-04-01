@@ -19,8 +19,7 @@ export const UserName = styled.p`
 `;
 
 export const UserButton = styled.button`
-  padding: 5px 10px;
-  width: 100%;
+  padding: 5px 15px;
   display: block;
   font-family: inherit;
   font-size: 15px;

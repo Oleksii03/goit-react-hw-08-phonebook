@@ -11,7 +11,7 @@ export const Filter = () => {
 
   return (
     <FilterWrapper>
-      <Title>Find contacts by name</Title>
+      <Title>Find a contact</Title>
       <Input
         type="text"
         name="filter"

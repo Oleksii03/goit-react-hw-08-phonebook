@@ -10,7 +10,7 @@ export const UserMenu = ({ user }) => {
   return (
     <User>
       <UserName>{user.name}</UserName>
-      <UserButton onClick={handleClick}>Logout</UserButton>
+      <UserButton onClick={handleClick}>Log-out</UserButton>
     </User>
   );
 };

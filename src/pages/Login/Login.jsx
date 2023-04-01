@@ -33,7 +33,7 @@ const Login = () => {
 
   return (
     <>
-      <Title>Sign in</Title>
+      <Title>Log-in</Title>
       <Form onSubmit={handleSubmit}>
         <Label>
           E-mail
@@ -53,7 +53,7 @@ const Login = () => {
             onChange={handleChange}
           />
         </Label>
-        <SubmitButton type="submit">Login</SubmitButton>
+        <SubmitButton type="submit">Log-in</SubmitButton>
       </Form>
       <BackLink to="/">
         Go to homepage

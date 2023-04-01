@@ -25,11 +25,11 @@ const Home = () => {
         </>
       ) : (
         <>
-          <Heading>This is your phonebook !</Heading>
-          <Text>Please, log in to reach your contacts !</Text>
-          <UserLink to="/login">Login</UserLink>
-          <Text>Or register !</Text>
-          <UserLink to="/register">Register</UserLink>
+          <Heading>This is your phonebook!</Heading>
+          <Text>Please, log-in</Text>
+          <UserLink to="/login">Log-in</UserLink>
+          <Text>Sign-up</Text>
+          <UserLink to="/register">Sign-up</UserLink>
         </>
       )}
     </>
