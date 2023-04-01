@@ -8,7 +8,7 @@ const Error = () => {
       <Heading>Page not found!</Heading>
       <BackLink to="/">
         <IoMdArrowRoundBack />
-        Back to homepage
+        Go to homepage
       </BackLink>
     </>
   );

@@ -33,7 +33,7 @@ export const UserLink = styled(Link)`
   &:hover,
   &:focus {
     color: #000;
-    background-color: #90EE90;
+    background-color: #3CB371;
   }
 `;
 
